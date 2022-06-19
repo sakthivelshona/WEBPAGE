@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <title>Health
+    </title>
+    <link rel = "stylesheet" href="style.css">
+    
+    <meta name ="viewport" content ="width = device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Fascinate&family=Indie+Flower&display=swap" rel="stylesheet">
+    </head>
+<body>
+<section id="banner">
+    <div class="banner-text">
+        <h1>The HealthCare</h1>
+        <p>Health is Wealth</p>
+        
+        <div class="banner-btn">
+        <a href="#"><span></span>Find out </a>
+        <a href="#"><span></span>Read more </a>
+            
+        </div>
+    </div>
+
+    </section>    
+    
+    
+  <div id="sidenav">
+    <nav>
+      <ul>
+        <li> <a href ="#">HOME</a></li>
+        <li> <a href ="#">SPECIALITY</a></li>
+        <li> <a href ="#">EXERCISE</a></li>
+        <li> <a href ="#">CONSULTATION</a></li>
+          
+        </ul>
+      </nav>
+    </div>  
+    
+    <div id ="menubtn">
+    <img src="img/menu.png" id ="menu">
+    </div>
+
+    
+    
+    <!--features-->
+    <section id ="feature">
+    <div class="title-text">
+        <p>SPECIALISATION</p>
+        <h1>Select The Speciality </h1>
+        
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                        <img src ="img/ped.jpg">
+
+            </div>
+            <div class="single-service">
+            <img src="img/heart.jpg">
+            </div>
+            <div class="single-service">
+            <img src ="img/gyno.jpg">
+            </div>
+            <div class="single-service">
+            <img src="img/neuro.jpg">
+            </div>
+            
+        
+        </div>
+        
+    </section>
+    
+    
+    
+    <section id ="exercise">
+    <div class="exe-text">
+        <p>EXERCISE</p>
+        <h1>The Body Achieves what the Mind believes</h1>
+        <img src="img/exe.png">
+        </div>
+    
+    
+    
+    
+    <section id ="con">
+        
+        <div class ="con-text">
+        <p>CONSULTATION</p>
+            <h1>Online Consultation is Available</h1>
+            <div class="con-right">
+            <h2>Contact Us</h2>
+                <p1>30 abc colony,xyz city,New Delhi</p1>
+              
+            </div>
+            <div class="mail">
+                <p1>health112@gmail.com</p1>
+
+            </div >
+            <div class="num">
+                <p1>+91-9876543210</p1>
+
+            </div>
+            
+        </div>
+        
+        </section>
+    
+    
+    <script>
+    var menubtn = document.getElementById("menubtn")
+    var sidenav = document.getElementById("sidenav")
+    var menu = document.getElementById("menu")
+    sidenav.style.right="-250px";
+    menubtn.onclick =function(){
+        
+        if(sidenav.style.right=="-250px")
+            {
+                sidenav.style.right ="0";
+                menu.src = "img/exit.png";
+            }
+        else{
+             sidenav.style.right ="-250px";
+            menu.src = "img/menu.png";
+
+
+        }
+    }
+    
+    
+    
+    </script>
+    
+    
+    </body>
+
+</html>
